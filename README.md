@@ -1,6 +1,6 @@
 Script for removing missing data-only columns from multple sequence alignments. You have to use it in a directory that contains all three files `aln_parsing.py`, `aln_writing.py` and `remove_empty_columns.py`. 
-```bash
-usage: remove_empty_columns.py <alignment_file_name> <input_file_format> <data_type
+```
+usage: remove_empty_columns.py <alignment_file_name> <input_file_format> <data_type>
 
 positional arguments:
   alignment_file_name   Alignment in FASTA, PHYLIP, or NEXUS format.
@@ -10,5 +10,4 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-
 ```
