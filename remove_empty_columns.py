@@ -19,7 +19,7 @@ parser.add_argument(
 parser.add_argument(
     'input_file_format',
     type = str,
-    help = 'File format for the output alignment.',
+    help = 'File format for the input and output alignments.',
     choices = ['fasta', 'phylip', 'nexus', 'phylip-int', 'nexus-int'],    
     )
 
